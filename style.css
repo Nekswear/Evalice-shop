@@ -3,6 +3,9 @@ header {
     flex-flow: row nowrap;
     justify-content: flex-start;
     align-items: center;
+    width: 100%;
+    background: #D8E3AB;
+    height: 70px;
 }
 
 .logo {
@@ -59,4 +62,14 @@ header {
 .tel a {
     color: #000;
     text-decoration: none;
+}
+
+li a:hover {
+    color: crimson;
+    background-color: cornsilk;
+}
+
+.tel a:hover {
+    color: crimson;
+    background-color: cornsilk;
 }
